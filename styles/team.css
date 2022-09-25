@@ -1,0 +1,113 @@
+@import url(reset.css);
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+*{
+    text-decoration: none;
+}
+
+html, body{
+    height: 900px;
+    width: 1440px;
+    border: 1px solid #000;
+}
+header{
+    padding-top: 54px;
+}
+.main-nav{
+    display: flex;
+    width: 486px;
+    height: 44px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    flex: 1;
+    text-decoration: none;
+    text-align: center;
+}
+h1{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #131313;
+}
+.active{
+    color: #2785F7;
+}
+main{
+    padding: 14px 37px 51px 37px;
+}
+.main-content{
+    width: 1366px;
+    height: 742px;
+    background: #EAEBED;
+    border-radius: 41px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px;
+    gap: 23px;
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 34px 0 34px;
+}
+.first-row > *{
+    width: 300px;
+    height: 325px;
+    background: #FFFFFF;
+    border-radius: 41px;
+    padding: 51px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-row{
+    padding: 0 34px 0 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.second-row > *{
+    width: 292px;
+    height: 278px;
+    background: #FFFFFF;
+    border-radius: 41px;
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: #000000;
+}
+span{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 33px;
+color: #C5C5C5;
+}
+div{
+    color: green!important;
+}
+.card:hover{
+    background-color: #2785F7;
+}
+.card:hover > * {
+    color: white;
+}

@@ -1,0 +1,135 @@
+@import url(reset.css);
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+*{
+    text-decoration: none;
+}
+
+html, body{
+    height: 900px;
+    width: 1440px;
+    border: 1px solid #000;
+}
+header{
+    padding-top: 54px;
+}
+.main-nav{
+    display: flex;
+    width: 486px;
+    height: 44px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    flex: 1;
+    text-decoration: none;
+    text-align: center;
+}
+h1{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #131313;
+}
+.active{
+    color: #2785F7;
+}
+.main-content{
+    width: 1366px;
+    height: 742px;
+    background: #EAEBED;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 138px 86px 0 86px;
+}
+.table-head{
+    width: 1194px;
+    height: 64px;
+    border-radius: 21px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.table-content{
+    width: 1194px;
+    height: 64px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+
+}
+.table-content:hover{
+    background-color: white;
+    border-radius: 21px;
+}
+.download{
+    width: 138px;
+    height: 100%;
+    font-family: "Open Sans" ;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.id{
+    width: 138px;
+    height: 100%;
+    font-family: "Open Sans" ;
+    font-weight: 700;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.topic{
+    width: 138px;
+    height: 100%;
+    font-family: "Open Sans" ;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.date{
+    width: 138px;
+    height: 100%;
+    font-family: "Open Sans" ;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+img{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 6px;
+}
+.img{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 6px;
+    /* padding: 6px; */
+    width: 34px;
+    height: 36px;
+    background-image: url(../images/download2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img:hover{
+    background-color: blue;
+    background-image: url(../images/download1.png);
+    
+}
